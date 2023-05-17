@@ -1,0 +1,129 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: rgb(36, 123, 123);
+    font-size: 12px;
+    color: white;
+    padding: 18px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.title{
+    display: flex;
+    grid-row-gap: 20px;
+    grid-column-gap: 10%;
+    justify-content: left;
+    
+}
+
+
+.container{
+    display: flex;
+    /* grid-row-gap: 20px; */
+    grid-column-gap: 10%;
+    justify-content: right;
+    padding-right: 9%;
+    width: 50%; 
+}
+
+/* li{
+    list-style: none;
+    display: inline-block;
+} */
+img{
+    
+    border-radius: 50%;
+}
+.first_section{
+    text-align: center;
+    color: rgb(36, 123, 123);
+}
+/* .container1{
+    padding: 20px;
+} */
+/* .container2{
+    padding: 50px;
+} */
+
+
+.second_section{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    color: white;
+    background-color:  rgb(36, 123, 123);
+    grid-column-gap: 25%;
+}
+
+.second_section div{
+    width: 50%;
+}
+
+.services{
+    padding-left: 100px;
+
+    /* padding-right: 150px; */
+    color: rgb(36, 123, 123);
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.third_section{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    color: white;
+    /* grid-row-gap: 20px; */
+    grid-column-gap: 5%;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.UI{
+    
+    background-color: rgb(3, 43, 43);
+    border-radius: 8%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.web_design{
+    background-color: rgb(3, 43, 43);
+    border-radius: 8%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.instructor{
+    background-color: rgb(3, 43, 43);
+    border-radius: 8%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+/* .third_section div{
+    background-color: blueviolet;
+} */
+
+footer{
+    background-color: rgb(36, 123, 123);
+    color: white;
+    text-align: center;
+}
